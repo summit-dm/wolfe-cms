@@ -51,6 +51,12 @@ export default {
           to: [{type: 'reviews'}]
         }
       ]
+    },
+    // Call To Action - CTA Triple
+    {
+      name: 'homeCtaTriple',
+      title: 'CTA Triple',
+      type: 'ctaTriple',
     }
   ]
 }

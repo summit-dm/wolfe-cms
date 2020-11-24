@@ -7,9 +7,12 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // We import object and document schemas
 import blockContent from './blockContent'
 import buttonXL from './utilities/buttonXL'
+import card from './utilities/card'
+import ctaTriple from './partials/ctaTriple'
 import hero3 from './partials/hero3'
 import reviews from './reviews'
 import category from './category'
+import page from './page'
 import post from './post'
 import author from './author'
 import home from './home'
@@ -24,6 +27,7 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     home,
+    page,
     post,
     author,
     category,
@@ -32,6 +36,8 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     buttonXL,
+    ctaTriple,
     hero3,
+    card,
   ]),
 })
